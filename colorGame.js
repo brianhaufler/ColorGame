@@ -21,7 +21,6 @@ function init() {
     reset();
 }
 
-
 function setUpModeButtons() {
     for (var i = 0; i < modeButtons.length; i++) {
         modeButtons[i].addEventListener("click", function() {
@@ -98,8 +97,8 @@ function randomColor() {
     return "rgb(" + random256() + ", " + random256() + ", " + random256() + ")";
 }
 
-function random256() {
-    return Math.floor(Math.random() * 257)
+function random255() {
+    return Math.floor(Math.random() * 256)
 }
 
 function changeColors(color) {
