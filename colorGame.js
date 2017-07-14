@@ -94,7 +94,7 @@ function generateColors(num) {
 }
 
 function randomColor() {
-    return "rgb(" + random256() + ", " + random256() + ", " + random256() + ")";
+    return "rgb(" + random255() + ", " + random255() + ", " + random255() + ")";
 }
 
 function random255() {
